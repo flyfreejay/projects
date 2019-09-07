@@ -3,10 +3,12 @@ from riotwatcher import RiotWatcher, ApiError
 version = "9.17.1"
 api_key = 'RGAPI-2d905604-b5d0-4753-a092-53a849818f4d'
 region = 'na1' #using NA server
-list_of_champs = watcher.data_dragon.champions(version)['data']   #offline copy of champion data sheet
+
 
 #making watcher with the api key
 watcher = RiotWatcher(api_key)
+
+list_of_champs = watcher.data_dragon.champions(version)['data']   #offline copy of champion data sheet
 
 #function to get the key of the champion 
 def GetChampKey(champ_name):    #input the name of the champion
