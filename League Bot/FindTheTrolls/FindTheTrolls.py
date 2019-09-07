@@ -1,7 +1,7 @@
 #just boring stuff, setting up the environment to work in
 from riotwatcher import RiotWatcher, ApiError
 version = "9.17.1"
-api_key = 'RGAPI-2d905604-b5d0-4753-a092-53a849818f4d'
+api_key = ''
 region = 'na1' #using NA server
 
 
@@ -62,5 +62,5 @@ if __name__ == '__main__':
     
     #GUI... I guess
     print("\n===============================================")
-    print("THANK YOU SO MUCH FOR USING OUR FINDTROLLS APP\nNOW GO FUCK YOURSELF!!!")
+    print("THANK YOU SO MUCH FOR USING OUR FINDTROLLS APP\nYOU ARE GAY HYUN!!!")
     print("===============================================")
